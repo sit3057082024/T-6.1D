@@ -107,7 +107,7 @@ Example Response:
 }
 ```
 
-Replace history with your desired topic to generate questions related to that field. The response will be in JSON format, containing an array of questions, each with multiple-choice options and the correct answer.
+Replace "Android Development" with your desired topic to generate questions related to that field. The response will be in JSON format, containing an array of questions, each with multiple-choice options and the correct answer.
 
 ```
 
