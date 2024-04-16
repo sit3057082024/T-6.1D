@@ -14,19 +14,33 @@ This Flask API leverages the GradientAI service with the Llama model to generate
 
 ### MacOS and Linux
 
-    ```bash
-    python3 -m venv myenv
-    source myenv/bin/activate
-    pip install -r pip_install_commands.txt
     ```
+    python -m venv pyEnv
+    source pyEnv/bin/activate
+    pip install -r requirements.txt
+    python main.py
+    ```
+
+Use the following command to deacivate the Virtual Environment (when done):
+
+```
+deactivate
+```
 
 ### Windows
 
-    ```bash
-    python3 -m venv myenv
-    myenv\Scripts\activate
-    pip install -r pip_install_commands.txt
     ```
+    python -m venv pyEnv
+    .\pyEnv\Scripts\activate
+    pip install -r pip_install_commands.txt
+    python main.py
+    ```
+
+Use the following command to deacivate the Virtual Environment (when done):
+
+```
+deactivate
+```
 
 ## Running the API
 
