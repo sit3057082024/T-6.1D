@@ -120,7 +120,7 @@ Example Response:
 
 Replace "Android Development" with your desired topic to generate questions related to that field. The response will be in JSON format, containing an array of questions, each with multiple-choice options and the correct answer.
 
-# [IMPORTANT] Adapting your app in Andriod Studio to work on http environments 
+# [IMPORTANT] Adapting your app in Android Studio to work on http environments 
 
 ### Step 1: Creating the `network_security_config` XML File
 
@@ -147,7 +147,7 @@ Once you've added the `network_security_config.xml` file, you need to include it
 You can find your app's manifest file (AndroidManifest.xml) in the `app/manifests/` directory of your Android project.
 
 
-Your final `AndriodManifest.xml` file should look like this 
+Your final `AndroidManifest.xml` file should look like this 
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -181,7 +181,7 @@ Your final `AndriodManifest.xml` file should look like this
 </manifest>
 ```
 
-This will enable you to use `http` requests within your andriod app. 
+This will enable you to use `http` requests within your Android app. 
 
 ## [IMPORTANT]
 
