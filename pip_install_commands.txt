@@ -1,2 +1,2 @@
-pip install gradientai --upgrade
-pip install Flask
+gradientai
+Flask
