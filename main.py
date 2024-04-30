@@ -71,6 +71,6 @@ def run_test():
 
 
 if __name__ == '__main__':
-    port_num = 6060
+    port_num = 5000
     print(f"App running on port {port_num}")
     app.run(port=port_num, host="0.0.0.0")
